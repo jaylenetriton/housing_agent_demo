@@ -149,12 +149,6 @@ Which housing applications need follow-up as of October 7, 2026?
 Expected tool: `get_applications_needing_followup`. Expected result: Jordan Chen and Alex Rivera.
 
 ```text
-Who needs a reminder on October 7, 2026?
-```
-
-Expected result: Alex Rivera and Jordan Chen.
-
-```text
 Look up application 2001 and draft a friendly reminder about its missing requirements. Do not invent deadlines, payment amounts, or website links.
 ```
 
@@ -162,15 +156,14 @@ Expected behavior: retrieve the application and draft a message about the missin
 
 ## Screenshots
 
-Save screenshots in a `screenshots/` folder. Replace the placeholders below with your images. Suggested Markdown image links are included in comments; remove the comment markers after adding the files.
 
 ### Finding applications due for follow-up
 
-[Follow-up query showing Alex and Jordan due on October 7](screenshots/1.png) -->
+![Follow-up query showing Alex and Jordan due on October 7](screenshots/1.png)
 
 ### Drafting a reminder
 
-[Draft reminder for the missing deposit](screenshots/2.png) 
+![Draft reminder for the missing deposit](screenshots/2.png) 
 
 ## Current scope and limitations
 
