@@ -143,28 +143,16 @@ Enter one question at the prompt. Run the script again for another question.
 ## Example questions
 
 ```text
-Which housing applications need follow-up as of October 6, 2026?
+Which housing applications need follow-up as of October 7, 2026?
 ```
 
-Expected tool: `get_applications_needing_followup`. Expected result: Jordan Chen.
+Expected tool: `get_applications_needing_followup`. Expected result: Jordan Chen and Alex Rivera.
 
 ```text
 Who needs a reminder on October 7, 2026?
 ```
 
 Expected result: Alex Rivera and Jordan Chen.
-
-```text
-What is missing from application 2001, and when is its next follow-up due?
-```
-
-Expected tool: `get_application_details`. Expected result: Alex's deposit is missing; the next follow-up is due October 7, 2026.
-
-```text
-What is missing from application 2003?
-```
-
-Expected result: Taylor's application is complete under the demo rules.
 
 ```text
 Look up application 2001 and draft a friendly reminder about its missing requirements. Do not invent deadlines, payment amounts, or website links.
@@ -178,21 +166,11 @@ Save screenshots in a `screenshots/` folder. Replace the placeholders below with
 
 ### Finding applications due for follow-up
 
-*Insert a screenshot showing the question, chosen tool, and answer for October 7, 2026.*
-
-<!-- ![Follow-up query showing Alex and Jordan due on October 7](screenshots/followup-query.png) -->
-
-### Inspecting an application
-
-*Insert a screenshot showing application 2001, its missing deposit, reminder history, and next follow-up date.*
-
-<!-- ![Application 2001 details and next follow-up date](screenshots/application-details.png) -->
+[Follow-up query showing Alex and Jordan due on October 7](screenshots/1.png) -->
 
 ### Drafting a reminder
 
-*Insert a screenshot showing the reminder request and generated draft for application 2001.*
-
-<!-- ![Draft reminder for the missing deposit](screenshots/reminder-draft.png) -->
+[Draft reminder for the missing deposit](screenshots/2.png) 
 
 ## Current scope and limitations
 
